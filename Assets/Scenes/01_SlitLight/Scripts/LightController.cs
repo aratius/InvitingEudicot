@@ -13,11 +13,11 @@ public class LightController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float phase = (Mathf.Sin(Time.time * .8f) + Mathf.Cos(Time.time * .9f)) * 10f;
-        transform.localPosition = new Vector3(
-            Mathf.Sin(phase) * 25f, 
-            Mathf.Sin(Time.time) * 4f + 4f, 
-            Mathf.Cos(phase) * 25f
-        );
+        // float phase = (Mathf.Sin(Time.time * .8f) + Mathf.Cos(Time.time * .9f)) * 10f;
+        // transform.localPosition = new Vector3(
+        //     Mathf.Sin(phase) * 25f, 
+        //     Mathf.Sin(Time.time) * 4f + 4f, 
+        //     Mathf.Cos(phase) * 25f
+        // );
     }
 }
